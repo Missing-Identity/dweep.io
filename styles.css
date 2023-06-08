@@ -1,0 +1,91 @@
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.upper-part {
+    background-color: #FFCD9E;
+    height: 70vh;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.lower-part {
+    padding-top: 3%;
+    background-color: #282828;
+    height: 30vh;
+    color: white;
+}
+
+.left-content {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 4%;
+    text-align: left;
+}
+
+.head-text {
+    padding-bottom: 3%;
+}
+
+.head-subtext {
+    padding-bottom: 3%;
+}
+
+.input-top {
+    padding-bottom: 3%;
+}
+
+.registration-input {
+    border: none;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 300px;
+}
+
+.input-button {
+    padding: 14px 26px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+}
+
+.input-bottom {
+    padding-top: 3%;
+    color: white;
+    font-weight: bold;
+}
+
+.right-image {
+    width: 500px;
+    margin-bottom: 6px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.logo-item {
+    margin-right: 8px;
+}
+
+.logo-item:last-child {
+    margin-right: 0;
+}
